@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EditFromIndia</title>
+    <link rel="icon" href="./Assets/Logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="#index.html">
+                    <img src="./Assets/Logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <button class="d-lg-block d-none me-5 request request-btn">Request Quote</button>
+                    <ul class="navbar-nav mb-2 mb-lg-0 px-4 py-1 main-nav">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link text-danger" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#">About</a>
+                        </li>
+                    </ul>
+                    <div class="d-lg-none d-flex">
+                        <button class="signin-btn px-4 py-2 text-white fw-bold lg-rounded-5 rounded-3 me-3">Sign
+                            In</button>
+                        <button
+                            class="border-0 px-4 py-2 lg-text-black text-white fw-bold lg-register-btn signin-btn rounded-3">
+                            <a href="./signup.html">Register</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="d-lg-flex d-none">
+                    <button class="signin-btn px-4 py-2 text-white fw-bold rounded-5 me-3">Sign In</button>
+                    <button class="border-0 fw-bold register-btn">
+                        <a href="./signup.html">Register</a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navigation section ends  -->
+    <section>
+        <div class="container mt-5">
+            <div class="row g-5">
+                <div class="col-lg-8 col-12">
+                    <div class="portfolio-text pt-5">
+                        <h1 style="font-size: 52px;" class="text-center fw-bold">RECENT WORK PORTFOLIO</h1>
+                        <p class="text-color text-center">
+                            We create impactful imagery, stunning photo editing and retouching portfolio.We are
+                            committed to
+                            flourish
+                            and nourish our talents to cherish the beautiful moments alive through our best professional
+                            services
+                            that
+                            reflect your dreams.
+                        </p>
+                    </div>
+                    <!-- porftfolio title and textes  -->
+                    <div>
+                        <div class="text-center">
+                            <button class="text-danger fw-bold fs-4 brand-rgba border-0 px-4 py-2 rounded-5 mt-4">Photo
+                                Editing</button>
+                        </div>
+                        <div class="mt-4">
+                            <ul class=" nav-tabs d-lg-flex justify-content-around align-items-center d-block py-1"
+                                id="myTab" role="tablist">
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing active" id="home-tab"
+                                        data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
+                                        aria-controls="home-tab-pane" aria-selected="true">All</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                        aria-controls="profile-tab-pane" aria-selected="false">Background
+                                        Removal</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                        aria-controls="contact-tab-pane" aria-selected="false">Clipping Path</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="Image-Masking-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Image-Masking-tab-pane" type="button"
+                                        role="tab" aria-controls="Image-Masking-tab-pane" aria-selected="false">Image
+                                        Masking</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="Drop-Shadow-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Drop-Shadow-tab-pane" type="button"
+                                        role="tab" aria-controls="Drop-Shadow-tab-pane"
+                                        aria-selected="false">Drop-Shadow</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="Ghost-Mannequin-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Ghost-Mannequin-tab-pane" type="button"
+                                        role="tab" aria-controls="Ghost-Mannequin-tab-pane" aria-selected="false">Ghost
+                                        Mannequin</button>
+                                </li>
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link nav-link-vido-editing" id="Photo-Retouching-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Photo-Retouching-tab-pane" type="button"
+                                        role="tab" aria-controls="Photo-Retouching-tab-pane" aria-selected="false">Photo
+                                        Retouching</button>
+                                </li>
+                            </ul>
+                            <!-- tab for navigation  -->
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                    aria-labelledby="home-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo1.jpg" alt="photo2">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo2.jpg" alt="photo2">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo3.jpg" alt="photo3">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo4.jpg" alt="photo4">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo5.jpg" alt="photo5">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo6.jpg" alt="photo6">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                    aria-labelledby="profile-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/photo-editin/photo1.jpg" alt="photo1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                    aria-labelledby="contact-tab" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/photo-editin/photo2.jpg" alt="photo2">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Image-Masking-tab-pane" role="tabpanel"
+                                    aria-labelledby="Image-Masking-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/photo-editin/photo3.jpg" alt="photo3">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Drop-Shadow-tab-pane" role="tabpanel"
+                                    aria-labelledby="Drop-Shadow-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/photo-editin/photo4.jpg" alt="photo4">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Ghost-Mannequin-tab-pane" role="tabpanel"
+                                    aria-labelledby="Ghost-Mannequin-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/photo-editin/photo5.jpg" alt="photo5">
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Photo-Retouching-tab-pane" role="tabpanel"
+                                    aria-labelledby="Photo-Retouching-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/photo-editin/photo6.jpg" alt="photo6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- photo editin tab section ends -->
+
+                    <div class="mt-5">
+                        <div class="text-center">
+                            <button class="text-danger fw-bold fs-4 brand-rgba border-0 px-4 py-2 rounded-5 mt-4">Vido
+                                Editing</button>
+                        </div>
+                        <div class="mt-4">
+                            <ul class="nav nav-tabs d-lg-flex justify-content-around align-items-center d-block py-1"
+                                id="myTab" role="tablist">
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link active" id="all-video-tab"
+                                        data-bs-toggle="tab" data-bs-target="#all-video-tab-pane" type="button"
+                                        role="tab" aria-controls="all-vido-tab-pane" aria-selected="true">All</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Video-Editing-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Video-Editing-tab-pane" type="button"
+                                        role="tab" aria-controls="Video-Editing-tab-pane" aria-selected="false">Video
+                                        Editing</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Capturing-WOW-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Capturing-WOW-tab-pane" type="button"
+                                        role="tab" aria-controls="Capturing-WOW-tab-pane"
+                                        aria-selected="false">Capturing
+                                        WOW</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Vimeo-Video-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Vimeo-Video-tab-pane" type="button"
+                                        role="tab" aria-controls="Vimeo-Video-tab-pane" aria-selected="false">Vimeo
+                                        Video</button>
+                                </li>
+                            </ul>
+                            <!-- video editing tab for navigation  -->
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-video-tab-pane" role="tabpanel"
+                                    aria-labelledby="all-video-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-12">
+                                            <iframe class="w-100" src="https://player.vimeo.com/video/76979871"
+                                                frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+                                        </div>
+                                        <div class="col-lg-4 col-12">
+                                            <iframe class="w-100" src="https://www.youtube.com/embed/BLnzSg-i3YE"
+                                                frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+                                        </div>
+                                        <div class="col-lg-4 col-12">
+                                            <iframe class="w-100" src="https://www.youtube.com/embed/IrpoIQUycNU"
+                                                frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+                                        </div>
+                                        <div class="col-lg-4 col-12">
+                                            <iframe class="w-100" src="https://www.youtube.com/embed/zLTzoyRYIC0"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- all video  -->
+
+                                <div class="tab-pane fade" id="Video-Editing-tab-pane" role="tabpanel"
+                                    aria-labelledby="Video-Editing-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-12">
+                                            <iframe class="w-100" src="https://player.vimeo.com/video/76979871"
+                                                frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- video editing  -->
+
+                                <div class="tab-pane fade" id="Capturing-WOW-tab-pane" role="tabpanel"
+                                    aria-labelledby="Capturing-WOW-tab" tabindex="0">
+                                    <div class="col-lg-4 col-12">
+                                        <iframe class="w-100" src="https://www.youtube.com/embed/IrpoIQUycNU"
+                                            frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <!-- Capturing WOW -->
+
+                                <div class="tab-pane fade" id="Vimeo-Video-tab-pane" role="tabpanel"
+                                    aria-labelledby="Vimeo-Video-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-12">
+                                        <iframe class="w-100" src="https://www.youtube.com/embed/zLTzoyRYIC0"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <!-- Vimeo Video -->
+                            </div>
+                            <!-- main concent for tab  -->
+                        </div>
+                    </div>
+                    <!-- video editing tab section ends  -->
+
+                    <div class="mt-5">
+                        <div class="text-center">
+                            <button class="text-danger fw-bold fs-4 brand-rgba border-0 px-4 py-2 rounded-5 mt-4">Album
+                                Designing</button>
+                        </div>
+                        <div class="mt-4">
+                            <ul class="nav nav-tabs d-lg-flex justify-content-around align-items-center d-block py-1"
+                                id="myTab" role="tablist">
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link active" id="all-album-tab"
+                                        data-bs-toggle="tab" data-bs-target="#all-album-tab-pane" type="button"
+                                        role="tab" aria-controls="all-album-tab-pane" aria-selected="true">All</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="FLipbook-1-tab"
+                                        data-bs-toggle="tab" data-bs-target="#FLipbook-1-tab-pane" type="button"
+                                        role="tab" aria-controls="FLipbook-1-tab-pane" aria-selected="false">FLipbook
+                                        1</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="cBeautiful-Couple-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Beautiful-Couple-tab-pane" type="button"
+                                        role="tab" aria-controls="Beautiful-Couple-tab-pane"
+                                        aria-selected="false">Beautiful Couple</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Nice-Testing-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Nice-Testing-tab-pane" type="button"
+                                        role="tab" aria-controls="Nice-Testing-tab-pane" aria-selected="false">Nice
+                                        Testing</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Wedding-Album-tab"
+                                        data-bs-toggle="tab" data-bs-target="#Wedding-Album-tab-pane" type="button"
+                                        role="tab" aria-controls="Wedding-Album-tab-pane" aria-selected="false">Wedding
+                                        Album</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="Album-tab" data-bs-toggle="tab"
+                                        data-bs-target="#Album-tab-pane" type="button" role="tab"
+                                        aria-controls="Album-tab-pane" aria-selected="false">Album</button>
+                                </li>
+
+                                <li class="nav-item d-lg-block d-flex justify-content-center" role="presentation">
+                                    <button class="nav-link video-editing-nav-link" id="New-Testing-tab"
+                                        data-bs-toggle="tab" data-bs-target="#New-Testing-tab-pane" type="button"
+                                        role="tab" aria-controls="New-Testing-tab-pane" aria-selected="false">New
+                                        Testing</button>
+                                </li>
+                            </ul>
+                            <!-- album designing tab for navigation  -->
+
+                            <div class="tab-content mt-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="all-album-tab-pane" role="tabpanel"
+                                    aria-labelledby="all-album-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album1.png" alt="album1">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album2.jpg" alt="album2">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album3.png" alt="album3">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album4.jpg" alt="album4">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album5.jpg" alt="album5">
+                                        </div>
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album6.jpg" alt="album6">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="FLipbook-1-tab-pane" role="tabpanel"
+                                    aria-labelledby="FLipbook-1-tab" tabindex="0">
+                                    <div class="row gy-5 gx-3">
+                                        <div class="col-lg-4 col-6">
+                                            <img class="w-100" src="./Assets/album-designing/album1.png" alt="album1">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="Beautiful-Couple-tab-pane" role="tabpanel"
+                                    aria-labelledby="Beautiful-Couple-tab" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/album-designing/album2.jpg" alt="album2">
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="Nice-Testing-tab-pane" role="tabpanel"
+                                    aria-labelledby="Nice-Testing-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/album-designing/album3.png" alt="album3">
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="Wedding-Album-tab-pane" role="tabpanel"
+                                    aria-labelledby="Wedding-Album-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/album-designing/album4.jpg" alt="album4">
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="Album-tab-pane" role="tabpanel"
+                                    aria-labelledby="Album-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/album-designing/album5.jpg" alt="album5">
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="New-Testing-tab-pane" role="tabpanel"
+                                    aria-labelledby="New-Testing-tab-pan" tabindex="0">
+                                    <div class="col-lg-4 col-6">
+                                        <img class="w-100" src="./Assets/album-designing/album6.jpg" alt="album6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right side condent part ends  -->
+
+                <div class="col-lg-4 col-12">
+                    <div class="mt-lg-5 mt-0 ps-lg-5">
+                        <h5 class="text-center fw-bold">Capturing Wow</h5>
+                        <img class="w-100" src="./Assets/ads1.jpg" alt="ads1">
+                        <p class="text-center mt-3">
+                            <a class="text-danger" href="http://">Advertisment</a>
+                        </p>
+                    </div>
+                    <div class="mt-5 ps-lg-5">
+                        <h5 class="text-center fw-bold">Luv Israni</h5>
+                        <img class="w-100" src="./Assets/ads2.jpg" alt="ads1">
+                        <p class="text-center mt-3">
+                            <a class="text-danger" href="http://">Advertisment</a>
+                        </p>
+                    </div>
+                    <div class="mt-5 ps-lg-5">
+                        <h5 class="text-center fw-bold">Capturing Wow</h5>
+                        <img class="w-100" src="./Assets/ads3.jpeg" alt="ads1">
+                        <p class="text-center mt-3">
+                            <a class="text-danger" href="http://">Advertisment</a>
+                        </p>
+                    </div>
+                    <!-- advertisement ends  -->
+
+                    <div class="mt-5">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed fs-16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <span class="me-2 text-danger fs-17">1.</span>
+                                        How is my image retouched?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">All images are professionally retouched by our team of
+                                        expert touch-up artists.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTow">
+                                    <button class="accordion-button collapsed fs-16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTow"
+                                        aria-expanded="false" aria-controls="flush-collapseTow">
+                                        <span class="me-2 text-danger fs-17">2.</span>
+                                        What types of photo editing can you do?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTow" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTow" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">We offer a wide range of photo editing services
+                                        including basic retouching, color correction, background removal, and more.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed fs-16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <span class="me-2 text-danger fs-17">3.</span>
+                                        Can I request a quote?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Yes, you can reach out to us for a quote by sending us
+                                        an email or filling out the contact form on our website.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFoure">
+                                    <button class="accordion-button collapsed fs-16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFoure"
+                                        aria-expanded="false" aria-controls="flush-collapseFoure">
+                                        <span class="me-2 text-danger fs-17">4.</span>
+                                        What if I am not satisfied with my edited photo?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFoure" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFoure" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">In the unlikely event that you are not satisfied with
+                                        the result, we offer free revisions until you are completely satisfied with the
+                                        final product.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed fs-16" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                        aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <span class="me-2 text-danger fs-17">5.</span>
+                                        What if I am not satisfied with my edited photo?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Yes, you can update your instructions at any time by
+                                        reaching out to us.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- left side advertisement part ends  -->
+            </div>
+        </div>
+    </section>
+    <!-- main prorfoli section with advertinsment part  -->
+
+    <script src="./customJs/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+:root {
+    --brand-color: #ed2e52;
+    --text-color: #797979;
+    --brand-rgba: rgba(238, 43, 83, .17);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.brand-rgba {
+    background: var(--brand-rgba);
+}
+
+/* permery css ends  */
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.request-btn {
+    background: var(--brand-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.main-nav {
+    background: #d3d3d3;
+    border-radius: 25px;
+}
+
+.signin-btn {
+    background: var(--brand-color);
+    border: none;
+}
+
+.register-btn {
+    background: none;
+}
+
+.portfolio-text p {
+    font-size: 21px;
+}
+
+.nav-link.active {
+    color: var(--brand-color) !important;
+    border-color: inherit !important;
+}
+
+.nav-tabs {
+    border-bottom: 5px solid var(--brand-rgba) !important;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.nav-tabs .nav-link.nav-link-vido-editing {
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 1%;
+}
+
+.nav-tabs .nav-link.video-editing-nav-link {
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-tabs .nav-link.nav-link-vido-editing:nth-child(7) {
+    margin-right: 0%;
+}
+
+.accordion-button:not(.collapsed) {
+    color: red !important;
+    background-color: inherit !important;
+    box-shadow: none !important
+}
+
+.accordion-button:focus {
+    border-color: inherit !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-body {
+    color: #252222 !important;
+    background-color: #c4c4c4 !important;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:320px) {
+    .portfolio-text p {
+        font-size: 17px;
+    }
+
+    .nav-tabs .nav-link.nav-link-vido-editing {
+        font-size: 21px;
+    }
+
+    .nav-tabs .nav-link.video-editing-nav-link {
+        font-size: 21px;
+        line-height: 15px;
+    }
+}
